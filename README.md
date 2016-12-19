@@ -1,20 +1,20 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
-NodeJS basic template
+Electron basic template
 =========================
 
-This example shows how to run Anychart library with Electron.
+This example shows how to run Anychart library with [Electron](http://electron.atom.io/).
 
 ### Running
 To use this sample you must have:
 
-NodeJS installed, if not please checkout [NodeJS official site](https://nodejs.org)
+NodeJS installed, if not please checkout [NodeJS official site](https://nodejs.org).
 To check your nodejs installation, run following command in command line:
 ```
 $ node -v
 v7.2.1 # sample output
 ```
 
-npm package manager, if not please checkout https://www.npmjs.com/
+npm package manager, if not please checkout [npm official site](https://www.npmjs.com/),
 To check your npm installation, run following command in command line:
 ```
 $ npm -v
@@ -38,31 +38,31 @@ Install dependencies
 npm install
 ```
 
-To run app, run next command:
+To start application, run next command:
 ```
 $ ./node_modules/.bin/electron .
 ```
 
-To build app for your current platform run:
+To build application for your current platform run:
 ```
 $ grunt electron:build
 ```
 
-Now you can run packaged app, navigate to generated build folder and run app, e.g for linux x64 run:
+Now you can run packaged application, navigate to generated build folder, e.g for linux x64 run:
 ```
 $ cd dist/electron-template-linux-x64
 ```
 
-And run app:
+And run application:
 ```
 $ ./electron-template
 ```
 
-To build app for all platforms run
+To build application for all platforms run:
 ```
 $ grunt electron:buildAll
 ```
-There will be many folders in dist directory corresponding available platforms
+There will be many folders in dist directory corresponding to available platforms
 
 
 ## Workspace
@@ -86,7 +86,6 @@ Platform/Language - [NodeJS](https://nodejs.org/en/)<br />
 Framework - [Electron](http://electron.atom.io/)<br />
 Build tool - [npm](https://www.npmjs.com/)<br />
 Task runner - [grunt](http://gruntjs.com/)<br />
-Template - [Jade](https://naltatis.github.io/jade-syntax-docs/)<br />
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)

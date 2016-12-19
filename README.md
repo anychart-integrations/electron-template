@@ -14,7 +14,7 @@ $ node -v
 v7.2.1 # sample output
 ```
 
-npm package manager, if not please checkout [npm official site](https://www.npmjs.com/),
+npm package manager, if not please checkout [npm official site](https://www.npmjs.com/).
 To check your npm installation, run following command in command line:
 ```
 $ npm -v
@@ -48,7 +48,7 @@ To build application for your current platform run:
 $ grunt electron:build
 ```
 
-Now you can run packaged application, navigate to generated build folder, e.g for linux x64 run:
+Now you can run packaged application. Navigate to generated build folder, e.g for linux x64 run:
 ```
 $ cd dist/electron-template-linux-x64
 ```
@@ -58,11 +58,11 @@ And run application:
 $ ./electron-template
 ```
 
-To build application for all platforms run:
+To build application for all available platforms and architectures run:
 ```
 $ grunt electron:buildAll
 ```
-There will be many folders in dist directory corresponding to available platforms
+There will be many folders in dist directory corresponding to available platforms.
 
 
 ## Workspace

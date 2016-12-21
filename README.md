@@ -20,6 +20,14 @@ To check your npm installation, run following command in command line:
 $ npm -v
 3.10.10 # sample output
 ```
+
+grunt task runnter, if not please chechout [grunt official site](http://gruntjs.com/).
+To check your grunt installation, run following command in command line:
+```
+$ grunt --version
+grunt-cli v1.2.0 # sample output
+```
+
 To start this example run commands listed below.
 
 Clone the repository from github.com to your workspace folder:

@@ -1,7 +1,7 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
 # Electron basic template
 
-This example shows how to run Anychart library with [Electron](http://electron.atom.io/).
+This example shows how to build simple desktop application with Anychart library and [Electron](http://electron.atom.io/).
 
 ### Running
 To use this sample you must have:

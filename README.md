@@ -1,7 +1,7 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
 # Electron basic template
 
-This example shows how to build simple desktop application with Anychart library and [Electron](http://electron.atom.io/).
+This example shows how to build simple desktop application with AnyChart library and [Electron](http://electron.atom.io/).
 
 ### Running
 To use this sample you must have:
@@ -20,7 +20,7 @@ $ npm -v
 3.10.10 # sample output
 ```
 
-grunt task runnter, if not please chechout [grunt official site](http://gruntjs.com/).
+grunt task runner, if not please checkout [grunt official site](http://gruntjs.com/).
 To check your grunt installation, run following command in command line:
 ```
 $ grunt --version
@@ -101,4 +101,10 @@ Task runner - [grunt](http://gruntjs.com/)<br />
 * [Technical Support](https://anychart.com/support)
 
 ## License
-[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/nodejs-express-mongodb-template/blob/master/LICENSE).
+AnyChart Electron integration sample includes two parts:
+- Code of the integration sample that allows to use Javascript library (in this case, AnyChart) with Electron. You can use, edit, modify it, use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-integrations/electron-template/blob/master/LICENSE).
+- AnyChart JavaScript library. It is released under Commercial license. You can test this plugin with the trial version of AnyChart. Our trial version is not limited by time and doesn't contain any feature limitations. Check details [here](https://www.anychart.com/buy/).
+
+If you have any questions regarding licensing - please contact us. <sales@anychart.com>
+
+[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/electron-template?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)

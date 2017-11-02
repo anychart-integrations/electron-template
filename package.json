@@ -1,12 +1,17 @@
 {
   "name": "electron-template",
   "description": "AnyChart Electron template",
-  "repository": {"type" : "git",
-                 "url" : "https://github.com/anychart-integrations/electron-template.git"},
-  "license": {"type": "Apache-2.0",
-              "url": "https://github.com/anychart-integrations/electron-template/blob/master/LICENSE"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anychart-integrations/electron-template.git"
+  },
+  "author": "AnyChart <contact@anychart.com> (http://anychart.com)",
+  "license": "Apache-2.0",
   "version": "0.1.0",
   "main": "main.js",
+  "dependencies": {
+    "anychart": "^8.0.0"
+  },
   "devDependencies": {
     "grunt": "~1.0.1",
     "grunt-electron": "~5.0.0",
